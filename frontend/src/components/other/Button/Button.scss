@@ -1,0 +1,9 @@
+@import 'utils';
+
+.button {
+  color: material-color('red', '100');
+  background: material-color('grey', '100');
+  padding: 1rem;
+  display: inline-block;
+  @include material-shadow(5);
+}
